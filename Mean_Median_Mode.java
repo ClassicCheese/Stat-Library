@@ -48,7 +48,7 @@ public class Mean_Median_Mode
     }
 
     //Mode? ~> Is the number that occurs the most, but it is unique, meaning there can only be one number be mode
-    public int findMode(int[] arr){
+    public static int findMode(int[] arr){
         ArrayList<Mean_Median_Mode> counter = new ArrayList<>();
         for(int i = 0; i < arr.length; i++){
             int tempHolder = arr[i];
