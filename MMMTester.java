@@ -20,6 +20,7 @@ public class MMMTester
         
         int[] userSample2 = {1, 2, 3, 3, 6, 7, 5, 9, 9};
         
+        
         double medianResult = test.findMedian(userSample2);
         System.out.println("The median is: " + medianResult);
         
